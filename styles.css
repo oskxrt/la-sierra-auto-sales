@@ -4,3 +4,9 @@
 @import url('./css/sections.css');
 @import url('./css/responsive.css');
 @import url('./css/sport-typography.css');
+
+/* Preserve the dealership logo's original colors on the dark footer. */
+.site-footer__brand img {
+  filter: none;
+  opacity: 1;
+}
