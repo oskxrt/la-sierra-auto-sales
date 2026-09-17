@@ -119,7 +119,7 @@ export function renderFooter() {
     <footer class="site-footer">
       <div class="shell site-footer__top">
         <div class="site-footer__brand">
-          <img src="assets/la-sierra-logo.png" alt="LA SIERRA AUTO SALES" width="220" height="126">
+          <img src="assets/la-sierra-logo.webp" alt="LA SIERRA AUTO SALES" width="220" height="126">
           <p>Quality pre-owned vehicles and flexible financing in Las Vegas, Nevada.</p>
         </div>
         <div class="site-footer__column">

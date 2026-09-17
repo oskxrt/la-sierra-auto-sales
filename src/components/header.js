@@ -37,7 +37,7 @@ export function renderHeader() {
     <header class="site-header" data-site-header>
       <div class="site-header__inner shell">
         <a class="brand" href="#top" aria-label="${dealership.shortName} home">
-          <img src="assets/la-sierra-logo.png" alt="LA SIERRA AUTO SALES" width="280" height="160">
+          <img src="assets/la-sierra-logo.webp" alt="LA SIERRA AUTO SALES" width="280" height="160">
         </a>
 
         <nav class="desktop-nav" aria-label="Primary navigation">

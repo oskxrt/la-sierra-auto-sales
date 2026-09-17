@@ -7,7 +7,7 @@ function optionList(items) {
 export function renderHero() {
   return `
     <section class="hero" data-component="hero" aria-labelledby="hero-title">
-      <img class="hero__media" src="assets/hero-dealership.webp" alt="" aria-hidden="true">
+      <img class="hero__media" src="assets/dealership-exterior.webp" alt="" aria-hidden="true">
       <div class="hero__overlay" aria-hidden="true"></div>
       <div class="hero__content shell">
         <div class="hero__copy">

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+:root {
+  --font-display: "Saira Semi Condensed", "Arial Narrow", "Roboto Condensed", ui-sans-serif, sans-serif;
+}
+
+.hero__media {
+  object-position: center 35%;
+}
+
+.hero h1 {
+  font-size: clamp(56px, 6.2vw, 88px);
+  font-weight: 900;
+  font-style: italic;
+  line-height: .98;
+  letter-spacing: -.012em;
+  text-wrap: balance;
+}
+
+.desktop-nav__link {
+  font-size: calc(var(--fs-small) + 1px);
+  font-weight: 800;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+
+.mobile-menu__title,
+.mobile-nav__link {
+  font-weight: 800;
+  letter-spacing: .015em;
+}
+
+.section-heading h2,
+.financing-card h2,
+.visit-copy h2,
+.sell-trade h2,
+.trust-card h3,
+.vehicle-card h3,
+.vehicle-card__price {
+  font-weight: 800;
+  letter-spacing: -.012em;
+}
+
+.button,
+.vehicle-card__cta,
+.brand-tile {
+  font-weight: 800;
+  letter-spacing: .02em;
+}
+
+@media (max-width: 700px) {
+  .hero h1 {
+    font-size: clamp(48px, 15vw, 70px);
+    line-height: 1;
+  }
+
+  .mobile-nav__link {
+    font-size: calc(var(--fs-card-title) + 4px);
+  }
+}
