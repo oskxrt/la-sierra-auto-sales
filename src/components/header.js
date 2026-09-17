@@ -37,7 +37,7 @@ export function renderHeader() {
     <header class="site-header" data-site-header>
       <div class="site-header__inner shell">
         <a class="brand" href="#top" aria-label="${dealership.shortName} home">
-          <img src="assets/la-sierra-logo.webp" alt="LA SIERRA AUTO SALES" width="280" height="160">
+          <img src="./assets/la-sierra-logo.png" alt="LA SIERRA AUTO SALES" width="280" height="160">
         </a>
 
         <nav class="desktop-nav" aria-label="Primary navigation">
@@ -60,32 +60,36 @@ export function renderHeader() {
           <span></span><span></span><span></span>
         </button>
       </div>
+    </header>
+  `;
+}
 
-      <div class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu>
-        <button class="mobile-menu__scrim" type="button" aria-label="Close menu" data-menu-scrim></button>
-        <div class="mobile-menu__panel" role="dialog" aria-modal="true" aria-label="Navigation menu">
-          <div class="mobile-menu__top">
-            <div>
-              <span class="mobile-menu__label">La Sierra</span>
-              <strong class="mobile-menu__title">Menu</strong>
-            </div>
-            <button class="mobile-menu__close" type="button" aria-label="Close menu" data-menu-close></button>
+export function renderMobileMenu() {
+  return `
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu>
+      <button class="mobile-menu__scrim" type="button" aria-label="Close menu" data-menu-scrim></button>
+      <div class="mobile-menu__panel" role="dialog" aria-modal="true" aria-label="Navigation menu">
+        <div class="mobile-menu__top">
+          <div>
+            <span class="mobile-menu__label">La Sierra</span>
+            <strong class="mobile-menu__title">Menu</strong>
           </div>
+          <button class="mobile-menu__close" type="button" aria-label="Close menu" data-menu-close></button>
+        </div>
 
-          <div class="mobile-menu__appearance" aria-label="Display settings">
-            ${renderThemeControl('appearance-option')}
-            ${renderTextSizeControl('appearance-option')}
-          </div>
+        <div class="mobile-menu__appearance" aria-label="Display settings">
+          ${renderThemeControl('appearance-option')}
+          ${renderTextSizeControl('appearance-option')}
+        </div>
 
-          <nav class="mobile-nav" aria-label="Mobile navigation">
-            ${renderNavLinks('mobile-nav__link')}
-          </nav>
-          <div class="mobile-menu__actions">
-            <a class="button button--red" href="#financing">Get Pre-Approved</a>
-            <a class="button button--outline-dark" href="${dealership.phoneHref}" aria-label="Call us">Call Us · ${dealership.phoneDisplay}</a>
-          </div>
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+          ${renderNavLinks('mobile-nav__link')}
+        </nav>
+        <div class="mobile-menu__actions">
+          <a class="button button--red" href="#financing">Get Pre-Approved</a>
+          <a class="button button--outline-dark" href="${dealership.phoneHref}" aria-label="Call us">Call Us · ${dealership.phoneDisplay}</a>
         </div>
       </div>
-    </header>
+    </div>
   `;
 }

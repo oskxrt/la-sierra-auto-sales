@@ -60,7 +60,7 @@ export function renderVisitUs() {
     <section class="visit-section section" id="contact" aria-labelledby="visit-title">
       <div class="shell visit-grid">
         <div class="visit-media">
-          <img src="assets/dealership-exterior.webp" alt="Exterior of La Sierra Auto Sales in Las Vegas" loading="lazy" decoding="async">
+          <img src="./assets/dealership-exterior.jpg" alt="Exterior of La Sierra Auto Sales in Las Vegas" loading="lazy" decoding="async">
           <div class="visit-media__tag">Las Vegas, Nevada</div>
         </div>
         <div class="visit-copy">
@@ -119,7 +119,7 @@ export function renderFooter() {
     <footer class="site-footer">
       <div class="shell site-footer__top">
         <div class="site-footer__brand">
-          <img src="assets/la-sierra-logo.webp" alt="LA SIERRA AUTO SALES" width="220" height="126">
+          <img src="./assets/la-sierra-logo.png" alt="LA SIERRA AUTO SALES" width="220" height="126">
           <p>Quality pre-owned vehicles and flexible financing in Las Vegas, Nevada.</p>
         </div>
         <div class="site-footer__column">

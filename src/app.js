@@ -1,4 +1,4 @@
-import { renderHeader } from './components/header.js';
+import { renderHeader, renderMobileMenu } from './components/header.js';
 import { renderHero } from './components/hero.js';
 import { renderVehicleGrid, renderBrandBrowser } from './components/inventory.js';
 import { renderFinancing, renderTrust, renderVisitUs, renderSellTrade, renderFooter } from './components/sections.js';
@@ -45,6 +45,7 @@ function renderBrandSection() {
 export function renderHome() {
   return `
     ${renderHeader()}
+    ${renderMobileMenu()}
     <main id="top">
       ${renderHero()}
       ${renderInventorySection()}
