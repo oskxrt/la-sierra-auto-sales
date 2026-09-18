@@ -5,7 +5,7 @@
 }
 
 .hero__media {
-  object-position: center 35%;
+  object-position: center 68%;
 }
 
 .hero h1 {
@@ -49,6 +49,10 @@
 }
 
 @media (max-width: 700px) {
+  .hero__media {
+    object-position: 58% center;
+  }
+
   .hero h1 {
     font-size: clamp(48px, 15vw, 70px);
     line-height: 1;
