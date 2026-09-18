@@ -60,7 +60,7 @@ export function renderVisitUs() {
     <section class="visit-section section" id="contact" aria-labelledby="visit-title">
       <div class="shell visit-grid">
         <div class="visit-media">
-          <img src="./assets/hero-la-sierra.webp" alt="Exterior of La Sierra Auto Sales in Las Vegas" loading="lazy" decoding="async">
+          <img src="./assets/hero-la-sierra.webp?v=20260918-cinematic" alt="Exterior of La Sierra Auto Sales in Las Vegas" loading="lazy" decoding="async">
           <div class="visit-media__tag">Las Vegas, Nevada</div>
         </div>
         <div class="visit-copy">
