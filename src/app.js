@@ -1,7 +1,7 @@
 import { renderHeader, renderMobileMenu } from './components/header.js';
-import { renderHero } from './components/hero.js';
+import { renderHero } from './components/hero.js?v=20260918-cinematic2';
 import { renderVehicleGrid, renderBrandBrowser } from './components/inventory.js';
-import { renderFinancing, renderTrust, renderVisitUs, renderSellTrade, renderFooter } from './components/sections.js';
+import { renderFinancing, renderTrust, renderVisitUs, renderSellTrade, renderFooter } from './components/sections.js?v=20260918-cinematic2';
 import { featuredVehicles, supportedMakes } from './data/vehicles.js';
 
 function renderInventorySection() {
