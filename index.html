@@ -16,7 +16,7 @@
   <div id="app"></div>
   <script type="module">
     await import('./src/preferences.js');
-    const { renderHome } = await import('./src/app.js');
+    const { renderHome } = await import('./src/app.js?v=20260918-cinematic2');
     document.getElementById('app').innerHTML = renderHome();
     await import('./src/client.js');
   </script>
