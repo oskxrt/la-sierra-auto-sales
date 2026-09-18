@@ -45,19 +45,30 @@
   border-radius: var(--radius-lg);
   overflow: hidden;
   background:
-    radial-gradient(circle at 86% 15%, rgba(255,74,74,.30), transparent 36%),
-    linear-gradient(120deg, #4a070a 0%, #7d0b10 48%, #d20a11 100%);
-  box-shadow: 0 20px 54px rgba(5,8,12,.24);
+    linear-gradient(105deg, #3a0608 0%, #61090d 34%, #8f0d13 68%, #c9141b 100%);
+  box-shadow:
+    0 24px 60px rgba(30,4,6,.30),
+    inset 0 1px 0 rgba(255,255,255,.08);
+}
+.quick-search-wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.06), transparent 38%),
+    radial-gradient(circle at 78% 38%, rgba(255,109,109,.16), transparent 30%);
+  pointer-events: none;
 }
 .quick-search-wrap::after {
   content: "";
   position: absolute;
-  width: 230px;
-  height: 230px;
-  right: -72px;
-  bottom: -112px;
-  border: 1px solid rgba(255,255,255,.08);
+  width: 280px;
+  height: 280px;
+  right: -86px;
+  bottom: -152px;
+  border: 1px solid rgba(255,255,255,.10);
   border-radius: 50%;
+  box-shadow: 0 0 0 38px rgba(255,255,255,.025);
   pointer-events: none;
 }
 .quick-search {
