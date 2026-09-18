@@ -42,7 +42,7 @@ html[data-theme="dark"] .site-footer { background:#06080b; }
   .site-header.is-scrolled { height:66px; }
   .site-header.is-scrolled .brand { height:58px; }
   .quick-search { grid-template-columns:1fr 1fr; }
-  .quick-search__field { border-right:0; border-bottom:1px solid var(--line); padding:10px 12px 14px; }
+  .quick-search__field { border-right:0; border-bottom:1px solid rgba(255,255,255,.14); padding:10px 12px 14px; }
   .quick-search__button { min-height:56px; }
   .section-heading--split { grid-template-columns:1fr; gap:18px; align-items:start; }
   .section-heading__aside { justify-self:start; }
@@ -71,7 +71,7 @@ html[data-theme="dark"] .site-footer { background:#06080b; }
   .hero p { max-width:340px; font-size:var(--fs-body); }
   .hero__actions { gap:9px; }
   .hero__actions .button { flex:1; min-width:145px; padding-inline:16px; }
-  .quick-search-wrap { margin-top:-56px; }
+  .quick-search-wrap { margin-top:-56px; padding:12px; border-radius:18px; }
   .quick-search { grid-template-columns:1fr; gap:0; padding:12px; border-radius:14px; }
   .quick-search__field { padding:11px 10px 13px; }
   .quick-search__button { margin-top:10px; width:100%; }
