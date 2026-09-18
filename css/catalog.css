@@ -45,8 +45,8 @@
   border-radius: var(--radius-lg);
   overflow: hidden;
   background:
-    radial-gradient(circle at 86% 15%, rgba(210,10,17,.58), transparent 34%),
-    linear-gradient(120deg, #0b0d10 0%, #15191e 58%, #2c0c0f 100%);
+    radial-gradient(circle at 86% 15%, rgba(255,74,74,.30), transparent 36%),
+    linear-gradient(120deg, #4a070a 0%, #7d0b10 48%, #d20a11 100%);
   box-shadow: 0 20px 54px rgba(5,8,12,.24);
 }
 .quick-search-wrap::after {
