@@ -3,7 +3,7 @@
 @import url('./css/catalog.css');
 @import url('./css/sections.css');
 @import url('./css/responsive.css');
-@import url('./css/sport-typography.css');
+@import url('./css/sport-typography.css?v=20260918-hero-framing');
 
 /* Preserve the dealership logo's original colors on the dark footer. */
 .site-footer__brand img {
